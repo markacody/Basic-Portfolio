@@ -1,101 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Mark Cody: Portfolio</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Portfolio | Mark Cody</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<!-- start page container -->
-<div class="container">
-	<header>
-		<div class="nameframe"><h1>Mark Cody</h1></div>
-		<nav>
-			<ul class="nav">
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Mark Cody</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
 	</header>
-	<!-- start background container -->
-	<div class="background clearfix">
-	<main>
-		<section>
-			<article>
-				<h2>Portfolio</h2>
-				<hr>
-				<div class="row">
-					<div class="c1">
-						<div class="superimpose">
-							<img src="assets/images/project1.jpg" alt="">
-							<div class="stripe"><h4>Hangman</h4>
-							</div>
-						</div>
-					</div>
-					<div class="c2">
-						<div class="superimpose">
-							<img src="assets/images/project2.jpg" alt="">
-							<div class="stripe"><h4>RPG Game</h4>
-							</div>
-						</div>
-					</div>	
-				</div>
-				<div class="row">
-					<div class="c1">
-						<div class="superimpose">
-							<img src="assets/images/project3.jpg" alt="">
-							<div class="stripe"><h4>Trivia Game</h4>
-							</div>
-						</div>
-					</div>
-					<div class="c2">
-						<div class="superimpose">
-							<img src="assets/images/project4.jpg" alt="">
-							<div class="stripe"><h4>Rutgers Info Widget</h4>
-							</div>
-						</div>
-					</div>	
-				</div>
-				<div class="row">
-					<div class="c1">
-						<div class="superimpose">
-							<img src="assets/images/project3.jpg" alt="">
-							<div class="stripe"><h4>Rock Paper Scissors</h4>
-							</div>
-						</div>
-					</div>
-					<div class="c2">
-						<div class="superimpose">
-							
-						</div>
-					</div>	
-				</div>
-				
-			</article>
+
+	<div id="main-container" class="container">
+		<section class="main-section group">
+			<h1>Portfolio</h1>
+
+			<div class="work">
+				<img src="assets/images/project1.jpg" alt="Good Buyer Game">
+
+				<h3>Hangman</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/project2.jpg" alt="NUAccess">
+
+				<h3>RPG Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/project3.jpg" alt="Budgeting and Forecasting Curriculum">
+
+				<h3>Trivia Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/project4.jpg" alt="Kraft Warehouse Management">
+
+				<h3>Rutgers Info Widget</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/project5.jpg" alt="Kraft Supply Chain Master Files">
+
+				<h3>Rock Paper Scissors</h3>
+			</div>
+
 		</section>
-		<aside>
-			<h3>Connect with Me</h3>
-			<hr>
-			<ul class="connecticons">
-				<li><a href="http://github.com/markacody" target=
-				"_blank"><img src="assets/images/github.png" alt="" width="65px"></a></li>
-				<li><a href="http://www.linkedin.com/in/markacody" target=
-				"_blank"><img src="assets/images/linkedin.png" alt="" width="65px"></a></li>
-				<li><a href="http://stackoverflow.com/users/6749965/mark-cody" target=
-				"_blank"><img src="assets/images/stackoverflow.png" alt="" height="60px"></a></li>
-			</ul>
-		</aside>
-	</main>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
+	</div>
+
 	<footer>
-		<div class="copyright">
-			<p>Copyright 2016 Mark Cody</p>
+		<div class="container">
+			&copy; Copyright 2016 Mark Cody
 		</div>
 	</footer>
-	<!-- end background container -->
-	</div>	
-<!-- end container -->
-</div>
 </body>
 </html>

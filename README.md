@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Homework 1: Basic Portfolio Site
+# Responsive-Portfolio
+Responsive Layout of Basic Portfolio
